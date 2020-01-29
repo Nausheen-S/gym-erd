@@ -31,7 +31,7 @@ Be able to make these queries in the DB:
   * A member can have many visits, but each visit should be a new entry
   * Use COUNT and ORDER BY in your queries to manipulate the result table
 * We want to find out how many customers sign up for the gym but don't come.
-  * A way to do this is to look at what LEFT JOIN does
+  * Use WHERE, NOT IN and DISTINCT to filter out members who visited the gym
 * We want to find out which gym machines are being used the most.
   * Add a machines table to your ERD
   * A member can use multiple machines and machines can be used by multiple members.
